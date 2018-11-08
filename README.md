@@ -49,7 +49,7 @@ test/output hotzoneanalysis src/resources/point-hotzone.csv src/resources/zone-h
 Note: 
 
 1. The number/order of tasks do not matter.
-2. But, the first 7 of our final test cases on Vocareum will be hot zone analysis, the last 8 will be hot cell analysis.
+2. But, the first 7 of our final test cases will be hot zone analysis, the last 8 will be hot cell analysis.
 
 
 
@@ -57,7 +57,7 @@ Note:
 ### Input data format
 The main function/entrace is "cse512.Entrance" scala file.
 
-1. Point data: the input point dataset is the pickup point of New York Taxi trip datasets. The data format of this phase is the original format of NYC taxi trip which is different from Phase 2. But the coding template already parsed it for you. Find the data from our asu google drive shared folder: [https://drive.google.com/open?id=1bN-U4nknvN5p7jiVHO-wduM7oXR5CBji](https://drive.google.com/open?id=1bN-U4nknvN5p7jiVHO-wduM7oXR5CBji)
+1. Point data: the input point dataset is the pickup point of New York Taxi trip datasets. The data format of this phase is the original format of NYC taxi trip which is different from the previous phase. But the coding template already parsed it for you. Find the data from our asu google drive shared folder: [https://drive.google.com/drive/folders/1W4GLKNsGlgXp7fHtDlhHEBdLVw_IuAXh?usp=sharing](https://drive.google.com/drive/folders/1W4GLKNsGlgXp7fHtDlhHEBdLVw_IuAXh?usp=sharing)
 
 2. Zone data (only for hot zone analysis): at "src/resources/zone-hotzone" of the template
 
@@ -112,12 +112,12 @@ In the code template,
 
 ## Submission
 ### Submission files
-1. Submit your project jar package on Vocareum website to get your grade.
+1. Submit your project jar package.
 2. Submit your project source code onto Blackboard and follow the submission instruction on BB.
 3. Note that: you need to make sure your code can compile and package by entering ```sbt clean assembly```. We will run the compiled package on our cluster directly using "spark-submit" with parameters. If your code cannot compile and package, you will not receive any points.
 
 ## Tips (Optional)
-This section is same with that in Phase 2.
+This section is same with that in Phase 1.
 ### How to debug your code in IDE
 
 If you are using the Scala template
