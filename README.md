@@ -88,8 +88,12 @@ The coordinates of top 50 hotest cells sorted by their G score in a descending o
 -7399,4075,22
 ```
 ### Example answers
-An example input and answer are put in "testcase" folder of the coding template
+An example input and answer are put in "testcase" folder of the coding template. 
 
+1. hotcell-example-answer-withZscore-sample.csv -- answer of the sampled input data with score.
+2. hotcell-example-answer-withZscore.csv -- answer with score of the full input data from Google Drive shared folder.
+3. hotcell-example-answer.csv -- the expected output result of using the yellow_tripdata_2009-01_point.csv as the input.
+4. hotcell-example-input.txt -- the input for running the jar file.
 
 ## Where you need to change
 DO NOT DELETE any existing code in the coding template unless you see this "YOU NEED TO CHANGE THIS PART"
