@@ -117,7 +117,7 @@ In the code template,
 ## Submission
 ### Submission files
 1. Submit your project jar package.
-2. Submit your project source code onto Blackboard and follow the submission instruction on BB.
+2. Zip your project source code and submit to Blackboard.
 3. Note that: you need to make sure your code can compile and package by entering ```sbt clean assembly```. We will run the compiled package on our cluster directly using "spark-submit" with parameters. If your code cannot compile and package, you will not receive any points.
 
 ## Tips (Optional)
